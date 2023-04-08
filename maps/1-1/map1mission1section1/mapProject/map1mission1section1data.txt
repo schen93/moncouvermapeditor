@@ -1,0 +1,8 @@
+mapName map1mission1section1
+rowAboveGround 17
+0 bababa
+1 2b2b2b
+2 747474
+3 747474
+4 550
+5 900
