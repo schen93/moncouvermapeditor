@@ -1,4 +1,5 @@
 # moncouvermapeditor
+test
 
 open project in IntelliJ IDE
 configure SDK in File -> project structure
