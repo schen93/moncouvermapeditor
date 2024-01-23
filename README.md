@@ -1,5 +1,5 @@
 # moncouvermapeditor
-test
+schenh2
 
 open project in IntelliJ IDE
 configure SDK in File -> project structure
