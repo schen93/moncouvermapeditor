@@ -1,7 +1,8 @@
 # moncouvermapeditor
 scheng3 update0
 schenh3 update1
-scheng4 update1
+scheng4 update0
+schenh4 update1
 
 open project in IntelliJ IDE
 configure SDK in File -> project structure
