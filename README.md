@@ -1,5 +1,5 @@
 # moncouvermapeditor
-test
+scheng3 update1
 
 open project in IntelliJ IDE
 configure SDK in File -> project structure
