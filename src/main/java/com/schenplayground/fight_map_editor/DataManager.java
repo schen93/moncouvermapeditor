@@ -26,7 +26,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
-import static com.schenplayground.fight_map_editor.MyApplication.*;
 import static com.schenplayground.fight_map_editor.ViewManager.*;
 
 /**
