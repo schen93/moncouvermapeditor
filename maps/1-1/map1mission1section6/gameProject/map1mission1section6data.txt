@@ -1,0 +1,8 @@
+mapName map1mission1section6
+rowAboveGround 11
+0 000000
+1 111111
+2 0b3889
+3 5988b4
+4 275
+5 450

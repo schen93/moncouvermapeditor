@@ -1,0 +1,5 @@
+34,36=enemymodelcrawl6:2:GROUND>::>::>n>-1>n
+44,17=STONE
+51,48=map1mission1section4>
+52,8=map1mission1section2>
+52,32=enemymodelwalk10:2:GROUND>::>::>n>-1>n

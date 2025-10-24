@@ -1,0 +1,117 @@
+package com.schenplayground.fight_map_editor.enume;
+
+public enum PersonName {
+    PLAYERJACKY("JACKYCHEN", "JackyChen"),
+
+    NPCMODELCRAWL1("NPCMODELCRAWL1", "npcmodelcrawl1"),
+    NPCMODELWALK1("Injured Crew", "npcmodelwalk1"),
+    NPCMODELWALK2("Agent Tonka", "npcmodelwalk2"),
+    NPCMODELWALK3("Agent Lois", "npcmodelwalk3"),
+    NPCMODELWALK4("NPCMODELWALK4", "npcmodelwalk4"),
+    NPCMODELWALK5("NPCMODELWALK5", "npcmodelwalk5"),
+    NPCMODELWALK7("NPCMODELWALK7", "npcmodelwalk7"),
+    NPCMODELWALK8("Agent Gooni", "npcmodelwalk8"),
+    NPCMODELWALK9("DX3000", "npcmodelwalk9"),
+    NPCMODELWALK10("Chief Scientist Zexis", "npcmodelwalk10"),
+    NPCMODELWALK11("Miner R-7", "npcmodelwalk11"),
+    NPCMODELWALK12("NPCMODELWALK12", "npcmodelwalk12"),
+    NPCMODELWHEEL1("NPCMODELWHEEL1", "npcmodelwheel1"),
+
+    MERCHANTMAINSUPPLIER("MERCHANTMAINSUPPLIER", "MerchantMainSupplier"),
+    SUPPLYBOX1("SUPPLYBOX1", "SupplyBox1"),
+
+
+
+    FLYMODELONE("FLYMODELONE", "FlyModelOne"),
+    ENEMYMODELFLY2("ENEMYMODELFLY2", "EnemyModelFly2"),
+    ENEMYMODELFLY2A("ENEMYMODELFLY2A", "EnemyModelFly2A"),
+    ENEMYMODELFLY3("ENEMYMODELFLY3", "EnemyModelFly3"),
+    ENEMYMODELFLY4("ENEMYMODELFLY4", "EnemyModelFly4"),
+    ENEMYMODELFLY5("ENEMYMODELFLY5", "EnemyModelFly5"),
+    ENEMYMODELFLY5A("ENEMYMODELFLY5A", "EnemyModelFly5A"),
+    ENEMYMODELFLY5B("ENEMYMODELFLY5B", "EnemyModelFly5B"),
+    ENEMYMODELFLY8("ENEMYMODELFLY8", "EnemyModelFly8"),
+    ENEMYMODELFLY9("ENEMYMODELFLY9", "EnemyModelFly9"),
+    ENEMYMODELFLY9A("ENEMYMODELFLY9A", "EnemyModelFly9A"),
+    ENEMYMODELFLY9C("ENEMYMODELFLY9C", "EnemyModelFly9C"),
+    ENEMYMODELFLY10("ENEMYMODELFLY10", "EnemyModelFly10"),
+    ENEMYMODELFLY11("ENEMYMODELFLY11", "EnemyModelFly11"),
+    ENEMYMODELFLY11A("ENEMYMODELFLY11A", "EnemyModelFly11A"),
+    ENEMYMODELFLY11B("ENEMYMODELFLY11B", "EnemyModelFly11B"),
+    ENEMYMODELFLY11C("ENEMYMODELFLY11C", "EnemyModelFly11C"),
+    ENEMYMODELFLY11D("ENEMYMODELFLY11D", "EnemyModelFly11D"),
+    ENEMYMODELFLY12("Monther the Breeder", "EnemyModelFly12"),
+    ENEMYMODELFLY13("ENEMYMODELFLY13", "EnemyModelFly13"),
+    ENEMYMODELFLY14("ENEMYMODELFLY14", "EnemyModelFly14"),
+    ENEMYMODELFLY14A("ENEMYMODELFLY14A", "EnemyModelFly14A"),
+    ENEMYMODELFLY14B("ENEMYMODELFLY14B", "EnemyModelFly14B"),
+    ENEMYMODELFLY14C("ENEMYMODELFLY14C", "EnemyModelFly14C"),
+    ENEMYMODELWALK14FLY("ENEMYMODELWALK14FLY", "EnemyModelWalk14Fly"),
+
+
+    BOSS("BADBOY", "BadBoy"),
+    ENEMYGENERATOR("ENEMYGENERATOR", "EnemyGenerator"),
+    DRONEMODELONE("DRONEMODELONE", "DroneModelOne"),
+    DRONEMODELTWO("DRONEMODELTWO", "DroneModelTwo"),
+
+    ENEMYMODELWALK1("ENEMYMODELWALK1", "EnemyModelWalk1"),
+    ENEMYMODELWALK1ELITE("ENEMYMODELWALK1ELITE", "EnemyModelWalk1Elite"),
+    ENEMYMODELWALK2("ENEMYMODELWALK2", "EnemyModelWalk2"),
+    ENEMYMODELWALK3("ENEMYMODELWALK3", "EnemyModelWalk3"),
+    ENEMYMODELWALK3A("ENEMYMODELWALK3A", "EnemyModelWalk3A"),
+    ENEMYMODELWALK3B("ENEMYMODELWALK3B", "EnemyModelWalk3B"),
+    ENEMYMODELWALK3C("ENEMYMODELWALK3C", "EnemyModelWalk3C"),
+    ENEMYMODELWALK6("ENEMYMODELWALK6", "EnemyModelWalk6"),
+    ENEMYMODELWALK8("ENEMYMODELWALK8", "EnemyModelWalk8"),
+    ENEMYMODELWALK9("ENEMYMODELWALK9", "EnemyModelWalk9"),
+    ENEMYMODELWALK10("ENEMYMODELWALK10", "EnemyModelWalk10"),
+    ENEMYMODELWALK11("ENEMYMODELWALK11", "EnemyModelWalk11"),
+    ENEMYMODELWALK12("ENEMYMODELWALK12", "EnemyModelWalk12"),
+    ENEMYMODELWALK13("ENEMYMODELWALK13", "EnemyModelWalk13"),
+    ENEMYMODELWALK14GATLIN("ENEMYMODELWALK14GATLIN", "EnemyModelWalk14Gatlin"),
+    ENEMYMODELWALK14RIFLE("ENEMYMODELWALK14RIFLE", "EnemyModelWalk14Rifle"),
+    ENEMYMODELWALK14ROCKET("ENEMYMODELWALK14ROCKET", "EnemyModelWalk14Rocket"),
+    ENEMYMODELWALK14SHIELD("ENEMYMODELWALK14SHIELD", "EnemyModelWalk14Shield"),
+    ENEMYMODELWALK15("Angry Kaloxous", "EnemyModelWalk15"),
+    ENEMYMODELWALK16("ENEMYMODELWALK16", "EnemyModelWalk16"),
+
+    ENEMYMODELWHEEL1("ENEMYMODELWHEEL1", "EnemyModelWheel1"),
+    ENEMYMODELWHEEL1A("ENEMYMODELWHEEL1A", "EnemyModelWheel1A"),
+    ENEMYMODELWHEEL2("ENEMYMODELWHEEL2", "EnemyModelWheel2"),
+    ENEMYMODELWHEEL3("ENEMYMODELWHEEL3", "EnemyModelWheel3"),
+    ENEMYMODELWHEEL4("ENEMYMODELWHEEL4", "EnemyModelWheel4"),
+
+    ENEMYMODELCRAWL1("ENEMYMODELCRAWL1", "EnemyModelCrawl1"),
+    ENEMYMODELCRAWL2("ENEMYMODELCRAWL2", "EnemyModelCrawl2"),
+    ENEMYMODELCRAWL3("ENEMYMODELCRAWL3", "EnemyModelCrawl3"),
+    ENEMYMODELCRAWL4("Crusher X-01", "EnemyModelCrawl4"),
+    ENEMYMODELCRAWL5("ENEMYMODELCRAWL5", "EnemyModelCrawl5"),
+    ENEMYMODELCRAWL6("ENEMYMODELCRAWL6", "EnemyModelCrawl6"),
+    ENEMYMODELCRAWL7("ENEMYMODELCRAWL7", "EnemyModelCrawl7"),
+    ENEMYMODELCRAWL8("ENEMYMODELCRAWL8", "EnemyModelCrawl8"),
+    ENEMYMODELCRAWL9("ENEMYMODELCRAWL9", "EnemyModelCrawl9"),
+    ;
+
+    private String name, className;
+
+    PersonName(String name, String className) {
+        this.name = name;
+        this.className = className;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
+}

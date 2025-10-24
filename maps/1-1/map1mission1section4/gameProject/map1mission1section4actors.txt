@@ -1,0 +1,10 @@
+4,61=map1mission1section6>
+16,33=enemymodelwalk10:3:GROUND>enemymodelcrawl6:4:GROUND>::>n>-1>n
+18,50=1>0>2,1>STONE
+32,35=enemymodelwalk10:2:GROUND>enemymodelcrawl6:3:GROUND>::>n>-1>n
+36,17=-1>0>1,3>STONE
+51,2=map1mission1section3>
+55,12=>n>STONE
+55,14=>n>STONE
+56,10=>n>STONE
+61,80=1>0>3,1>STONE

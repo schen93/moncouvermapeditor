@@ -1,0 +1,587 @@
+com.cs93.startpoint.svgProps.MapDoor = 0, 0, 0, 350.0, 350.0, DOOR-MAP1MISSION1SECTION4-MAP1MISSION1SECTION3, MAP1MISSION1SECTION4, RECTANGULAR, 350.0, 350.0, 0
+com.cs93.startpoint.svgProps.MapDoor = 0, 0, 0, 350.0, 350.0, DOOR-MAP1MISSION1SECTION4-MAP1MISSION1SECTION6, MAP1MISSION1SECTION4, RECTANGULAR, 350.0, 350.0, 0
+com.cs93.startpoint.svgProps.Ladder = 0, 0, 0, 0.5, 105.0, LADDEROXOXO, MAP1MISSION1SECTION4, RECTANGULAR, 0.5, 105.0, 0
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 50, 50, 100, RECTANGULAR, 50, 50, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 100, 50, 100, RECTANGULAR, 100, 50, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 150, 50, 100, RECTANGULAR, 150, 50, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 200, 50, 100, RECTANGULAR, 200, 50, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 50, 100, 100, RECTANGULAR, 50, 100, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 100, 100, 100, RECTANGULAR, 100, 100, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 150, 100, 100, RECTANGULAR, 150, 100, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 200, 100, 100, RECTANGULAR, 200, 100, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 50, 150, 100, RECTANGULAR, 50, 150, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 100, 150, 100, RECTANGULAR, 100, 150, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 150, 150, 100, RECTANGULAR, 150, 150, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 200, 150, 100, RECTANGULAR, 200, 150, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 50, 200, 100, RECTANGULAR, 50, 200, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 100, 200, 100, RECTANGULAR, 100, 200, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 150, 200, 100, RECTANGULAR, 150, 200, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Land = 0, 0, 0, 200, 200, 100, RECTANGULAR, 200, 200, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-100, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-101, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-102, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-103, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-104, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-105, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-106, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-107, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-109, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-110, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-118, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-119, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-128, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-129, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-130, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-132, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-133, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-141, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-142, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-151, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-152, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-153, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-155, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-156, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-16, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-164, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-165, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-167, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-168, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-169, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-17, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-170, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-171, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-172, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-173, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-174, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-175, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-176, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-178, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-179, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-18, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-187, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-188, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-189, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-19, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-190, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-191, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-192, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-193, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-194, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-195, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-196, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-197, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-198, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-201, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-202, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-210, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-211, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-212, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-213, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-214, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-224, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-225, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-233, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-234, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-247, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-248, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-256, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-257, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-270, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-271, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-277, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-278, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-279, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-280, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-293, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-294, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-295, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-300, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-301, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-302, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-303, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-304, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-305, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-306, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-307, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-310, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-311, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-312, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-313, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-314, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-315, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-316, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-317, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-318, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-319, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-320, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-323, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-324, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-325, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-326, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-327, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-328, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-329, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-330, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-331, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-332, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-333, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-334, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-335, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-336, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-337, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-338, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-339, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-340, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-341, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-342, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-343, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-344, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-351, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-352, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-353, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-354, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-355, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-356, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-357, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-358, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-359, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-366, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-367, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-377, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-378, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-389, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-39, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-390, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-40, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-400, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-401, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-409, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-41, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-410, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-411, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-412, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-413, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-42, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-423, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-424, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-428, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-429, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-430, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-431, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-432, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-433, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-434, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-435, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-436, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-446, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-447, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-449, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-450, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-451, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-452, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-453, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-454, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-455, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-456, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-457, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-469, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-470, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-471, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-472, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-473, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-474, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-475, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-492, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-493, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-494, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-495, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-496, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-515, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-516, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-62, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-63, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-64, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-65, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-72, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-73, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-74, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-75, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-76, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-77, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-78, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-79, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-80, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-81, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-82, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-83, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-84, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-86, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-87, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-95, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-96, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-97, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-98, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION4-LAYER2-99, MAP1MISSION1SECTION4, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.startpoint.svgProps.Monkeybar = 0, 0, 0, 150.0, 150.0, 0, 0, MONKEYBAROXOXO, MAP1MISSION1SECTION4, false
+com.cs93.startpoint.actor.land.Platform = 0, 0, 0, 50, 50, 100, RECTANGULAR, 50, 50, 0, MAP1MISSION1SECTION4, PLFMOXOXO100OXOXO100, UPRIGHT
+com.cs93.startpoint.actor.land.Platform = 0, 0, 0, 100, 50, 100, RECTANGULAR, 100, 50, 0, MAP1MISSION1SECTION4, PLFMOXOXO100OXOXO200, UPRIGHT
+com.cs93.startpoint.actor.land.Platform = 0, 0, 0, 150, 50, 100, RECTANGULAR, 150, 50, 0, MAP1MISSION1SECTION4, PLFMOXOXO100OXOXO300, UPRIGHT
+com.cs93.startpoint.actor.land.Platform = 0, 0, 0, 200, 50, 100, RECTANGULAR, 200, 50, 0, MAP1MISSION1SECTION4, PLFMOXOXO100OXOXO400, UPRIGHT
+com.cs93.startpoint.actor.land.ShiftLand = 0, 0, 0, 0, 0, 100, RECTANGULAR, 0, 0, 0, EMPTY, MAP1MISSION1SECTION4, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.startpoint.actor.land.Slope = 0, 0, 0, 50, 50, 100, RECTANGULAR, 50, 50, 0, MAP1MISSION1SECTION4, EMPTY, UPRIGHT-LEFT, LEFT
+com.cs93.startpoint.actor.land.Slope = 0, 0, 0, 50, 50, 100, RECTANGULAR, 50, 50, 0, MAP1MISSION1SECTION4, EMPTY, UPRIGHT-RIGHT, RIGHT
+com.cs93.startpoint.actor.land.Slope = 0, 0, 0, 100, 50, 100, RECTANGULAR, 100, 50, 0, MAP1MISSION1SECTION4, EMPTY, UPRIGHT-LEFT, LEFT
+com.cs93.startpoint.actor.land.Slope = 0, 0, 0, 100, 50, 100, RECTANGULAR, 100, 50, 0, MAP1MISSION1SECTION4, EMPTY, UPRIGHT-RIGHT, RIGHT
+com.cs93.startpoint.actor.land.Slope = 0, 0, 0, 150, 50, 100, RECTANGULAR, 150, 50, 0, MAP1MISSION1SECTION4, EMPTY, UPRIGHT-LEFT, LEFT
+com.cs93.startpoint.actor.land.Slope = 0, 0, 0, 150, 50, 100, RECTANGULAR, 150, 50, 0, MAP1MISSION1SECTION4, EMPTY, UPRIGHT-RIGHT, RIGHT
+com.cs93.startpoint.actor.land.Slope = 0, 0, 0, 200, 50, 100, RECTANGULAR, 200, 50, 0, MAP1MISSION1SECTION4, EMPTY, UPRIGHT-LEFT, LEFT
+com.cs93.startpoint.actor.land.Slope = 0, 0, 0, 200, 50, 100, RECTANGULAR, 200, 50, 0, MAP1MISSION1SECTION4, EMPTY, UPRIGHT-RIGHT, RIGHT
+com.cs93.startpoint.svgProps.StairSensorDownWard = 0, 0, 0, 50.0, 50.0, RECTANGULAR, 50.0, 50.0, 0, MAP1MISSION1SECTION4, EMPTY, LEFT
+com.cs93.startpoint.svgProps.StairSensorDownWard = 0, 0, 0, 50.0, 50.0, RECTANGULAR, 50.0, 50.0, 0, MAP1MISSION1SECTION4, EMPTY, RIGHT
+com.cs93.startpoint.svgProps.UnfollowArea = 0, 0, 0, 200.0, 200.0, MAP1MISSION1SECTION4, RECTANGULAR, 200.0, 200.0, 0
+com.cs93.startpoint.svgProps.WallHang = 0, 0, 0, 1.0, 100.0, WALLHANGLEFTOXOXO200OXOXO200, MAP1MISSION1SECTION4, RECTANGULAR, 1.0, 100.0, 0
+com.cs93.startpoint.svgProps.WallHang = 0, 0, 0, 1.0, 100.0, WALLHANGRIGHTOXOXO200OXOXO200, MAP1MISSION1SECTION4, RECTANGULAR, 1.0, 100.0, 0
+com.cs93.startpoint.svgProps.WallSlide = 0, 0, 0, 1.0, 100.0, WALLSLIDELEFTOXOXO200OXOXO200, MAP1MISSION1SECTION4, RECTANGULAR, 1.0, 100.0, 0
+com.cs93.startpoint.svgProps.WallSlide = 0, 0, 0, 1.0, 100.0, WALLSLIDERIGHTOXOXO200OXOXO200, MAP1MISSION1SECTION4, RECTANGULAR, 1.0, 100.0, 0
+com.cs93.startpoint.actor.person.EnemyModelCrawl5 = 0, 0, 0, ENEMYMODELCRAWL5, ENEMYMODELCRAWL5, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.actor.person.EnemyModelCrawl6 = 0, 0, 0, ENEMYMODELCRAWL6, ENEMYMODELCRAWL6, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.actor.person.EnemyModelCrawl7 = 0, 0, 0, ENEMYMODELCRAWL7, ENEMYMODELCRAWL7, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.actor.person.EnemyModelFly2A = 0, 0, 0, ENEMYMODELFLY2A, ENEMYMODELFLY2A, MAP1MISSION1SECTION4, HOVER
+com.cs93.startpoint.actor.person.EnemyModelFly5B = 0, 0, 0, ENEMYMODELFLY5B, ENEMYMODELFLY5B, MAP1MISSION1SECTION4, HOVER
+com.cs93.startpoint.actor.person.EnemyModelFly9 = 0, 0, 0, ENEMYMODELFLY9, ENEMYMODELFLY9, MAP1MISSION1SECTION4, HOVER
+com.cs93.startpoint.actor.person.EnemyModelFly9A = 0, 0, 0, ENEMYMODELFLY9A, ENEMYMODELFLY9A, MAP1MISSION1SECTION4, HOVER
+com.cs93.startpoint.actor.person.EnemyModelFly9C = 0, 0, 0, ENEMYMODELFLY9C, ENEMYMODELFLY9C, MAP1MISSION1SECTION4, HOVER
+com.cs93.startpoint.actor.person.EnemyModelWalk10 = 0, 0, 0, ENEMYMODELWALK10, ENEMYMODELWALK10, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.actor.person.EnemyModelWalk14Gatlin = 0, 0, 0, ENEMYMODELWALK14GATLIN, ENEMYMODELWALK14GATLIN, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.actor.person.EnemyModelWalk14Rifle = 0, 0, 0, ENEMYMODELWALK14RIFLE, ENEMYMODELWALK14RIFLE, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.actor.person.EnemyModelWalk14Shield = 0, 0, 0, ENEMYMODELWALK14SHIELD, ENEMYMODELWALK14SHIELD, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.actor.person.EnemyModelWalk2 = 0, 0, 0, ENEMYMODELWALK2, ENEMYMODELWALK2, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.actor.person.EnemyModelWalk3A = 0, 0, 0, ENEMYMODELWALK3A, ENEMYMODELWALK3A, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.actor.person.EnemyModelWalk3C = 0, 0, 0, ENEMYMODELWALK3C, ENEMYMODELWALK3C, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.actor.person.EnemyModelWheel1A = 0, 0, 0, ENEMYMODELWHEEL1A, ENEMYMODELWHEEL1A, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.actor.person.EnemyModelWheel3 = 0, 0, 0, ENEMYMODELWHEEL3, ENEMYMODELWHEEL3, MAP1MISSION1SECTION4, STAND
+com.cs93.startpoint.stageProps.FightTrigger
