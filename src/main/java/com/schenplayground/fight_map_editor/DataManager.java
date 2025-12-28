@@ -10,7 +10,6 @@ import javafx.embed.swing.SwingFXUtils;
 import javafx.geometry.Insets;
 import javafx.scene.SnapshotParameters;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
 import javafx.scene.image.WritableImage;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
@@ -54,8 +53,10 @@ public class DataManager {
     private int startRow, endRow, startColumn, endColumn, rowInterval, columnInterval, aboveGroundRows;
     private boolean randomPosition, inOrder;
     private String assetNameKeys;
-    private String gameResFolder;
-    private String gameImageAssetsFolder;
+    private String androidGameResFolder;
+    private String androidGameImageAssetsFolder;
+    private String pcGameResFolder;
+    private String pcGameImageAssetsFolder;
     private boolean deployData, deployImage;
     private float zoomRatio; // = baseBitmap / fhd
 
@@ -122,8 +123,8 @@ public class DataManager {
         alert1.getButtonTypes().setAll(buttonTypeCancel);
         alert1.show(); //.showAndWait() block the current thread, show() does not
 
-        Path rawPath = Paths.get(this.getGameResFolder() + File.separator + "raw");
-        Path imageAssetsPath = Paths.get(this.getGameImageAssetsFolder());
+        Path androidRawPath = Paths.get(this.getAndroidGameResFolder());
+        Path pcRawPath = Paths.get(this.getPcGameResFolder());
 
         //write matrix ===================================================================
         //map folder
@@ -236,13 +237,32 @@ public class DataManager {
             ioe.printStackTrace();
         }
 
-
-
-        //deploy to res/raw
+        //deploy to android/res/raw
         if(this.isDeployData()) {
             try {
 
-                String matrixFilePath = rawPath + File.separator + this.getMapName() + MATRIXFILENAME;
+                String matrixFilePath = androidRawPath + File.separator + this.getMapName() + MATRIXFILENAME;
+                File file = new File(matrixFilePath);
+                file.createNewFile();
+                BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+
+                for (int i = 0; i < lines1.length; i++) {
+                    //System.out.println("line " + i + " : " + lines[i]);
+                    writer.write(lines1[i]);
+                    writer.newLine();
+                }
+
+                writer.close();
+            } catch (IOException ioe) {
+                ioe.printStackTrace();
+            }
+        }
+
+        //deploy to pc/file
+        if(this.isDeployData()) {
+            try {
+
+                String matrixFilePath = pcRawPath + File.separator + this.getMapName() + MATRIXFILENAME;
                 File file = new File(matrixFilePath);
                 file.createNewFile();
                 BufferedWriter writer = new BufferedWriter(new FileWriter(file));
@@ -262,9 +282,7 @@ public class DataManager {
 
 
 
-
-
-        //write data assets ====================================================
+        //write assets ====================================================
         //map folder
         try {
             String assetFolderPath = DataManager.getInstance().getMapFolder() + File.separator + MAPFOLDER;
@@ -285,17 +303,28 @@ public class DataManager {
             ioe.printStackTrace();
         }
 
+        String androidClassPath = "com.cs93.moncouvernewhorizon";
+        String pcClassPath = "com.schenplayground.moncouvernewhorizon";
 
-        //game folder
-        String assetFilePath = DataManager.getInstance().getMapFolder() + File.separator + GAMEFOLDER + File.separator + this.getMapName() + ASSETFILENAME;
-        this.buildAssetsDataForGame(updatedImageNameList, assetFilePath);
+        //game folder - android
+        String androidAssetFilePath = DataManager.getInstance().getMapFolder() + File.separator + GAMEFOLDER + File.separator + this.getMapName() + "android_" + ASSETFILENAME;
+        this.buildAssetsDataForGame(updatedImageNameList, androidAssetFilePath, androidClassPath);
+
+        //game folder - pc
+        String pcAssetFilePath = DataManager.getInstance().getMapFolder() + File.separator + GAMEFOLDER + File.separator + this.getMapName() + "pc_" + ASSETFILENAME;
+        this.buildAssetsDataForGame(updatedImageNameList, pcAssetFilePath, pcClassPath);
 
 
-
-        //deploy to res/raw
+        //deploy to android/res/raw
         if(this.isDeployData()) {
-            String assetsFilePath = rawPath + File.separator + this.getMapName() + ASSETFILENAME;
-            this.buildAssetsDataForGame(updatedImageNameList, assetsFilePath);
+            String assetsFilePath = androidRawPath + File.separator + this.getMapName() + ASSETFILENAME;
+            this.buildAssetsDataForGame(updatedImageNameList, assetsFilePath, androidClassPath);
+        }
+
+        //deploy to pc/file
+        if(this.isDeployData()) {
+            String assetsFilePath = pcRawPath + File.separator + this.getMapName() + ASSETFILENAME;
+            this.buildAssetsDataForGame(updatedImageNameList, assetsFilePath, pcClassPath);
         }
 
 
@@ -329,10 +358,36 @@ public class DataManager {
 
 
 
-        //deploy to res/raw
+        //deploy to android/res/raw
         if(this.isDeployData()) {
             try {
-                String missionSkinedPropsFilePath = rawPath + File.separator + this.getMapName() + MISSIONSKINEDPROPSFILENAME;
+                String missionSkinedPropsFilePath = androidRawPath + File.separator + this.getMapName() + MISSIONSKINEDPROPSFILENAME;
+                File file = new File(missionSkinedPropsFilePath);
+                file.createNewFile();
+                BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+
+                for(String name : updatedImageNameList) {
+                    if(!Objects.equals(name, "")) {
+                        writer.write(name);
+                        writer.newLine();
+                    }
+                }
+
+                for(String name : this.getMissionEnemySet()) {
+                    writer.write(name);
+                    writer.newLine();
+                }
+
+                writer.close();
+            } catch(IOException ioe) {
+                ioe.printStackTrace();
+            }
+        }
+
+        //deploy to pc/file
+        if(this.isDeployData()) {
+            try {
+                String missionSkinedPropsFilePath = pcRawPath + File.separator + this.getMapName() + MISSIONSKINEDPROPSFILENAME;
                 File file = new File(missionSkinedPropsFilePath);
                 file.createNewFile();
                 BufferedWriter writer = new BufferedWriter(new FileWriter(file));
@@ -408,11 +463,11 @@ public class DataManager {
 
 
 
-        //deploy to res/raw
+        //deploy to android/res/raw
         //TODO scale escalator move distance by zoom ratio before export to actor file
         if(this.isDeployData()) {
             try {
-                String actorFilePath = rawPath + File.separator + this.getMapName() + ACTORFILENAME;
+                String actorFilePath = androidRawPath + File.separator + this.getMapName() + ACTORFILENAME;
                 File file = new File(actorFilePath);
                 file.createNewFile();
                 BufferedWriter writer = new BufferedWriter(new FileWriter(file));
@@ -434,7 +489,31 @@ public class DataManager {
             }
         }
 
+        //deploy to pc/file
+        //TODO scale escalator move distance by zoom ratio before export to actor file
+        if(this.isDeployData()) {
+            try {
+                String actorFilePath = pcRawPath + File.separator + this.getMapName() + ACTORFILENAME;
+                File file = new File(actorFilePath);
+                file.createNewFile();
+                BufferedWriter writer = new BufferedWriter(new FileWriter(file));
 
+                for(int i=0; i<this.getMapButtons().length; i++) {
+                    for(int j=0; j<this.getMapButtons()[0].length; j++) {
+                        if (this.getActorDataMap().containsKey(i + "," + j)) {
+                            writer.write(i + "," + j + "=" + this.getActorDataMap().get(i + "," + j));
+                            writer.newLine();
+                        }
+                        //System.out.println("Log - doors put " + ss[0] + " " + ss[1]);
+                    }
+                }
+
+
+                writer.close();
+            } catch (IOException ioe) {
+                ioe.printStackTrace();
+            }
+        }
 
 
         //write data ==================================================================================
@@ -498,10 +577,10 @@ public class DataManager {
 
 
 
-        //deploy to res/raw
+        //deploy to android/res/raw
         if(this.isDeployData()) {
             try {
-                String dataFilePath = rawPath + File.separator + this.getMapName() + DATAFILENAME;
+                String dataFilePath = androidRawPath + File.separator + this.getMapName() + DATAFILENAME;
                 File file = new File(dataFilePath);
                 file.createNewFile();
                 BufferedWriter writer = new BufferedWriter(new FileWriter(file));
@@ -528,6 +607,35 @@ public class DataManager {
             }
         }
 
+        //deploy to pc/file
+        if(this.isDeployData()) {
+            try {
+                String dataFilePath = pcRawPath + File.separator + this.getMapName() + DATAFILENAME;
+                File file = new File(dataFilePath);
+                file.createNewFile();
+                BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+
+                writer.write("mapName " + this.getMapName());
+                writer.newLine();
+                writer.write("rowAboveGround " + this.getAboveGroundRows());
+                writer.newLine();
+                writer.write("0 " + this.getStartColor());
+                writer.newLine();
+                writer.write("1 " + this.getEndColor());
+                writer.newLine();
+                writer.write("2 " + this.getColor1());
+                writer.newLine();
+                writer.write("3 " + this.getColor2());
+                writer.newLine();
+                writer.write("4 " + (int)(Integer.parseInt(this.getColor1Pos()) * this.getZoomRatio()));  //basebitmap is half size of fhd
+                writer.newLine();
+                writer.write("5 " + (int)(Integer.parseInt(this.getColor2Pos()) * this.getZoomRatio()));  //basebitmap is half size of fhd
+                writer.newLine();
+                writer.close();
+            } catch (IOException ioe) {
+                ioe.printStackTrace();
+            }
+        }
 
 
 
@@ -563,10 +671,10 @@ public class DataManager {
 
 
         //copy images================================================================================================
-        //to map/game imgs folder
+        //to editor map/game imgs folder
         AssetManager.getInstance().exportAssets(DataManager.getInstance().getMapFolder());
 
-        //deploy images to res/drawable-nodpi
+        //to android/pc
         if(this.isDeployImage()) {
             AssetManager.getInstance().deployAssets();
         }
@@ -581,7 +689,7 @@ public class DataManager {
 
     }
 
-    public void buildAssetsDataForGame(List<String> updatedImageNameList, String path) {
+    public void buildAssetsDataForGame(List<String> updatedImageNameList, String path, String classPackagePath) {
         try {
             File file = new File(path);
             file.createNewFile();
@@ -597,17 +705,17 @@ public class DataManager {
                 }
 
                 if (assetName.indexOf("shiftland") > -1) {
-                    writer.write(String.format("com.cs93.startpoint.actor.land.ShiftLand = 0, 0, 0, 0, 0, 100, RECTANGULAR, 0, 0, 0, EMPTY, %s, UPRIGHT-DOWNRIGHT-LEFT-RIGHT", this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.ShiftLand = 0, 0, 0, 0, 0, 100, RECTANGULAR, 0, 0, 0, EMPTY, %s, UPRIGHT-DOWNRIGHT-LEFT-RIGHT", this.getMapName().toUpperCase()));
                 } else if (assetName.indexOf("land") > -1) {
                     String[] values = assetName.split(SEPERATOR);
                     int width = (int)(Integer.parseInt(values[2]) * this.getZoomRatio());
                     int height = (int)(Integer.parseInt(values[1]) * this.getZoomRatio());
-                    writer.write(String.format("com.cs93.startpoint.actor.land.Land = 0, 0, 0, " + width + ", " + height + ", 100, RECTANGULAR, " + width + ", " + height + ", 0, EMPTY, %s, UPRIGHT-DOWNRIGHT-LEFT-RIGHT", this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.Land = 0, 0, 0, " + width + ", " + height + ", 100, RECTANGULAR, " + width + ", " + height + ", 0, EMPTY, %s, UPRIGHT-DOWNRIGHT-LEFT-RIGHT", this.getMapName().toUpperCase()));
                 } else if (assetName.indexOf("plfm") > -1) { //hidden platform with variable width
                     String[] values = assetName.split(SEPERATOR);
                     int width = (int)(Integer.parseInt(values[2]) * this.getZoomRatio());
                     int height = (int)(Integer.parseInt(values[1]) * this.getZoomRatio());
-                    writer.write(String.format("com.cs93.startpoint.actor.land.Platform = 0, 0, 0, " + width + ", " + height + ", 100, RECTANGULAR, " + width + ", " + height + ", 0, %s, %s, UPRIGHT", this.getMapName().toUpperCase(), assetName.toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.Platform = 0, 0, 0, " + width + ", " + height + ", 100, RECTANGULAR, " + width + ", " + height + ", 0, %s, %s, UPRIGHT", this.getMapName().toUpperCase(), assetName.toUpperCase()));
                 } else if (assetName.indexOf("slopeoxoxo") > -1) {
                     String[] values = assetName.split(SEPERATOR);
                     int width = (int)(Integer.parseInt(values[2]) * this.getZoomRatio());
@@ -619,28 +727,28 @@ public class DataManager {
                     } else if(facing.equalsIgnoreCase("right")) {
                         bumpableFaces = "UPRIGHT-RIGHT";
                     }
-                    writer.write(String.format("com.cs93.startpoint.actor.land.Slope = 0, 0, 0, " + width + ", " + height + ", 100, RECTANGULAR, " + width + ", " + height + ", 0, %s, EMPTY, %s, %s", this.getMapName().toUpperCase(), bumpableFaces, facing.toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.Slope = 0, 0, 0, " + width + ", " + height + ", 100, RECTANGULAR, " + width + ", " + height + ", 0, %s, EMPTY, %s, %s", this.getMapName().toUpperCase(), bumpableFaces, facing.toUpperCase()));
                 } else if (assetName.indexOf("slopesensordownoxoxo") > -1) {
                     String[] values = assetName.split(SEPERATOR);
                     String slopeFacing = values[1].toUpperCase();
-                    writer.write(String.format("com.cs93.startpoint.svgProps.StairSensorDownWard = 0, 0, 0, " + 100 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", RECTANGULAR, " + 100 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, EMPTY, %s", this.getMapName().toUpperCase(), slopeFacing));
+                    writer.write(String.format(classPackagePath + ".svgProps.StairSensorDownWard = 0, 0, 0, " + 100 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", RECTANGULAR, " + 100 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, EMPTY, %s", this.getMapName().toUpperCase(), slopeFacing));
                 } else if (assetName.indexOf("empty") > -1) {
-                    writer.write(String.format("com.cs93.startpoint.actor.land.Land = 0, 0, 0, " + 400 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + 400 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, EMPTY, %s, UPRIGHT-DOWNRIGHT-LEFT-RIGHT", this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.Land = 0, 0, 0, " + 400 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + 400 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, EMPTY, %s, UPRIGHT-DOWNRIGHT-LEFT-RIGHT", this.getMapName().toUpperCase()));
                 }/* else if (assetName.indexOf("end") > -1) {
-                    writer.write(String.format("com.cs93.startpoint.actor.land.Land = 0, 0, 0, " + 100 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", 100, RECTANGULAR, " + 100 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", 0, EMPTY, %s, LEFT-RIGHT", this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.Land = 0, 0, 0, " + 100 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", 100, RECTANGULAR, " + 100 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", 0, EMPTY, %s, LEFT-RIGHT", this.getMapName().toUpperCase()));
                 }*/ else if (assetName.indexOf("floor") > -1) {
-                    writer.write(String.format("com.cs93.startpoint.actor.land.Land = 0, 0, 0, " + 600 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + 600 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, %s, UPRIGHT-DOWNRIGHT-LEFT-RIGHT", assetName.toUpperCase(), this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.Land = 0, 0, 0, " + 600 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + 600 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, %s, UPRIGHT-DOWNRIGHT-LEFT-RIGHT", assetName.toUpperCase(), this.getMapName().toUpperCase()));
                 } else if (assetName.indexOf("bigrock") > -1 && assetName.indexOf("layer2") > -1 ) {
                     float w = (float)AssetManager.getInstance().getOriginalAssetList().get(i).getWidth() - 100;
-                    writer.write(String.format("com.cs93.startpoint.actor.land.Platform = 0, 0, 0, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, %s, UPRIGHT", this.getMapName().toUpperCase(), assetName.toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.Platform = 0, 0, 0, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, %s, UPRIGHT", this.getMapName().toUpperCase(), assetName.toUpperCase()));
                 } else if (assetName.indexOf("solidcrate") > -1 && (assetName.indexOf("layer2") > -1 || assetName.indexOf("layer1") > -1)) {
                     float w = (float)AssetManager.getInstance().getOriginalAssetList().get(i).getWidth();
-                    writer.write(String.format("com.cs93.startpoint.actor.land.Platform = 0, 0, 0, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, %s, UPRIGHT-DOWNRIGHT-LEFT-RIGHT", this.getMapName().toUpperCase(), assetName.toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.Platform = 0, 0, 0, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, %s, UPRIGHT-DOWNRIGHT-LEFT-RIGHT", this.getMapName().toUpperCase(), assetName.toUpperCase()));
                 } else if (assetName.indexOf("crate") > -1 && (assetName.indexOf("layer2") > -1 || assetName.indexOf("layer1") > -1)) {
                     float w = (float)AssetManager.getInstance().getOriginalAssetList().get(i).getWidth();
-                    writer.write(String.format("com.cs93.startpoint.actor.land.Platform = 0, 0, 0, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, %s, UPRIGHT", this.getMapName().toUpperCase(), assetName.toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.Platform = 0, 0, 0, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + w * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, %s, UPRIGHT", this.getMapName().toUpperCase(), assetName.toUpperCase()));
                 } else if (assetName.indexOf("platform") > -1 ) { //visible platform with fixed width 400
-                    writer.write(String.format("com.cs93.startpoint.actor.land.Platform = 0, 0, 0, " + 500 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + 500 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, %s, UPRIGHT", this.getMapName().toUpperCase(), assetName.toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.Platform = 0, 0, 0, " + 500 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 100, RECTANGULAR, " + 500 * this.getZoomRatio() + ", " + 100 * this.getZoomRatio() + ", 0, %s, %s, UPRIGHT", this.getMapName().toUpperCase(), assetName.toUpperCase()));
                 } else if (assetName.indexOf("escalator") > -1 ) {
                                                                                                             /*
                                                                                                          0 networkUniqueID
@@ -660,14 +768,14 @@ public class DataManager {
                                                                                                           */
                     int rectW = (int)AssetManager.getInstance().getOriginalAssetList().get(i).getWidth();
                     //in case enabled monkeybar, then sprintbound.height should be the same as monkeybar's sp.height
-                    writer.write(String.format("com.cs93.startpoint.actor.land.MovingLand = 0, 0, 0, " + rectW * this.getZoomRatio() + ", " + 300 * this.getZoomRatio() + ", 0, 100, %s, RECTANGULAR, " + rectW * this.getZoomRatio() + ", " + 200 * this.getZoomRatio() + ", 0, %s, false", assetName.toUpperCase(), this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.land.MovingLand = 0, 0, 0, " + rectW * this.getZoomRatio() + ", " + 300 * this.getZoomRatio() + ", 0, 100, %s, RECTANGULAR, " + rectW * this.getZoomRatio() + ", " + 200 * this.getZoomRatio() + ", 0, %s, false", assetName.toUpperCase(), this.getMapName().toUpperCase()));
                 } else if (assetName.indexOf("ladder") > -1) {
                     int rectH = ((int)AssetManager.getInstance().getOriginalAssetList().get(i).getHeight() / 100 + 1) * 100 + 10;
-                    writer.write(String.format("com.cs93.startpoint.svgProps.Ladder = 0, 0, 0, " + 1 * this.getZoomRatio() + ", " + rectH * this.getZoomRatio() + ", %s, %s, RECTANGULAR, " + 1 * this.getZoomRatio() + ", " + rectH * this.getZoomRatio() + ", 0", assetName.toUpperCase(), this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".svgProps.Ladder = 0, 0, 0, " + 1 * this.getZoomRatio() + ", " + rectH * this.getZoomRatio() + ", %s, %s, RECTANGULAR, " + 1 * this.getZoomRatio() + ", " + rectH * this.getZoomRatio() + ", 0", assetName.toUpperCase(), this.getMapName().toUpperCase()));
                 } else if (assetName.indexOf("wallslide") > -1) {
-                    writer.write(String.format("com.cs93.startpoint.svgProps.WallSlide = 0, 0, 0, " + 2 * this.getZoomRatio() + ", " + 200 * this.getZoomRatio() + ", %s, %s, RECTANGULAR, " + 2 * this.getZoomRatio() + ", " + 200 * this.getZoomRatio() + ", 0", assetName.toUpperCase(), this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".svgProps.WallSlide = 0, 0, 0, " + 2 * this.getZoomRatio() + ", " + 200 * this.getZoomRatio() + ", %s, %s, RECTANGULAR, " + 2 * this.getZoomRatio() + ", " + 200 * this.getZoomRatio() + ", 0", assetName.toUpperCase(), this.getMapName().toUpperCase()));
                 } else if (assetName.indexOf("wallhang") > -1) {
-                    writer.write(String.format("com.cs93.startpoint.svgProps.WallHang = 0, 0, 0, " + 2 * this.getZoomRatio() + ", " + 200 * this.getZoomRatio() + ", %s, %s, RECTANGULAR, " + 2 * this.getZoomRatio() + ", " + 200 * this.getZoomRatio() + ", 0", assetName.toUpperCase(), this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".svgProps.WallHang = 0, 0, 0, " + 2 * this.getZoomRatio() + ", " + 200 * this.getZoomRatio() + ", %s, %s, RECTANGULAR, " + 2 * this.getZoomRatio() + ", " + 200 * this.getZoomRatio() + ", 0", assetName.toUpperCase(), this.getMapName().toUpperCase()));
                 } else if (assetName.indexOf("monkeybar") > -1) {
                                                                 /*
                                                                 0 networkUniqueID
@@ -682,19 +790,19 @@ public class DataManager {
                                                                 9 multipleSkin
                                                                  */
                     //monkeybar spritbound height must be big enough to let player move to position while still touching it
-                    writer.write(String.format("com.cs93.startpoint.svgProps.Monkeybar = 0, 0, 0, " + 300 * this.getZoomRatio() + ", " + 300 * this.getZoomRatio() + ", 0, 0, %s, %s, false", assetName.toUpperCase(), this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".svgProps.Monkeybar = 0, 0, 0, " + 300 * this.getZoomRatio() + ", " + 300 * this.getZoomRatio() + ", 0, 0, %s, %s, false", assetName.toUpperCase(), this.getMapName().toUpperCase()));
                 } else if (assetName.indexOf("unfollow") > -1) {
-                    writer.write(String.format("com.cs93.startpoint.svgProps.UnfollowArea = 0, 0, 0, " + 400 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", %s, RECTANGULAR, " + 400 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", 0", this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".svgProps.UnfollowArea = 0, 0, 0, " + 400 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", %s, RECTANGULAR, " + 400 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", 0", this.getMapName().toUpperCase()));
                 } else if (assetName.indexOf("finishpoint") > -1) {
-                    writer.write(String.format("com.cs93.startpoint.svgProps.MissionDoor = 0, 0, 0, " + 400 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", %s, RECTANGULAR, " + 400 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", 0, FINISHPOINT, null", this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".svgProps.MissionDoor = 0, 0, 0, " + 400 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", %s, RECTANGULAR, " + 400 * this.getZoomRatio() + ", " + 400 * this.getZoomRatio() + ", 0, FINISHPOINT, null", this.getMapName().toUpperCase()));
                 } else if (assetName.indexOf("fighttrigger") > -1) {
-                    writer.write("com.cs93.startpoint.stageProps.FightTrigger");
+                    writer.write(classPackagePath + ".stageProps.FightTrigger");
                 } else if (assetName.indexOf("movablecrate") > -1) {
                     //due to 45 deg side view, rectW set to 60px less than the asset width
                     //resize result image asset has a tiny empty gap at the bottom, so reduce height by 2 px to fix
                     int rectW = (int)AssetManager.getInstance().getOriginalAssetList().get(i).getWidth() - 30;
                     int rectH = (int)AssetManager.getInstance().getOriginalAssetList().get(i).getHeight() - 2;
-                    writer.write(String.format("com.cs93.startpoint.actor.movableObject.MovableObject = 0, 0, 0, " + rectW * this.getZoomRatio() + ", " + rectH * this.getZoomRatio() + ", 0, 0, 1, 100, RECTANGULAR, " + rectW * this.getZoomRatio() + ", " + rectH * this.getZoomRatio() + ", 0, %s, %s, METAL, false", assetName.toUpperCase(), this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".actor.movableObject.MovableObject = 0, 0, 0, " + rectW * this.getZoomRatio() + ", " + rectH * this.getZoomRatio() + ", 0, 0, 1, 100, RECTANGULAR, " + rectW * this.getZoomRatio() + ", " + rectH * this.getZoomRatio() + ", 0, %s, %s, METAL, false", assetName.toUpperCase(), this.getMapName().toUpperCase()));
                 } else if (assetName.indexOf("supplybox") > -1) {
                     /*
                     0 networkid
@@ -708,16 +816,16 @@ public class DataManager {
                     8 merchantdata
                      */
                     String index = assetName.substring(9);
-                    writer.write(String.format("com.cs93.startpoint.actor.person.SupplyBox = 0, 0, 0, SUPPLYBOX%s, SUPPLYBOX%s, %s, STAND, 0, SUPPLYBOX%s", index, index, this.getMapName().toUpperCase(), index));
+                    writer.write(String.format(classPackagePath + ".actor.person.SupplyBox = 0, 0, 0, SUPPLYBOX%s, SUPPLYBOX%s, %s, STAND, 0, SUPPLYBOX%s", index, index, this.getMapName().toUpperCase(), index));
                 } else if (assetName.indexOf("door") > -1) { //door
-                    writer.write(String.format("com.cs93.startpoint.svgProps.MapDoor = 0, 0, 0, " + 700 * this.getZoomRatio() + ", " + 700 * this.getZoomRatio() + ", %s, %s, RECTANGULAR, " + 700 * this.getZoomRatio() + ", " + 700 * this.getZoomRatio() + ", 0", assetName.toUpperCase(), this.getMapName().toUpperCase()));
+                    writer.write(String.format(classPackagePath + ".svgProps.MapDoor = 0, 0, 0, " + 700 * this.getZoomRatio() + ", " + 700 * this.getZoomRatio() + ", %s, %s, RECTANGULAR, " + 700 * this.getZoomRatio() + ", " + 700 * this.getZoomRatio() + ", 0", assetName.toUpperCase(), this.getMapName().toUpperCase()));
 
                 } else if (assetName.indexOf("enemymodel") > -1) {
                     try {
                         if (assetName.indexOf("fly") > -1) { //fly enemy
                             writer.write(
                                     String.format(
-                                            "com.cs93.startpoint.actor.person.%s = 0, 0, 0, %s, %s, %s, HOVER",
+                                            classPackagePath + ".actor.person.%s = 0, 0, 0, %s, %s, %s, HOVER",
                                             PersonName.valueOf(assetName.toUpperCase()).getClassName(),
                                             assetName.toUpperCase(),
                                             assetName.toUpperCase(),
@@ -727,7 +835,7 @@ public class DataManager {
                         } else {    //ground enemy
                             writer.write(
                                     String.format(
-                                            "com.cs93.startpoint.actor.person.%s = 0, 0, 0, %s, %s, %s, STAND",
+                                            classPackagePath + ".actor.person.%s = 0, 0, 0, %s, %s, %s, STAND",
                                             PersonName.valueOf(assetName.toUpperCase()).getClassName(),
                                             assetName.toUpperCase(),
                                             assetName.toUpperCase(),
@@ -744,7 +852,7 @@ public class DataManager {
                         try {
                             writer.write(
                                     String.format(
-                                            "com.cs93.startpoint.actor.person.NPCPrisoner = 0, 0, 0, %s, %s, %s, STAND, 0, %s",
+                                            classPackagePath + ".actor.person.NPCPrisoner = 0, 0, 0, %s, %s, %s, STAND, 0, %s",
                                             assetName.toUpperCase(), //persondata
                                             assetName.toUpperCase(), //npcdata
                                             this.getMapName().toUpperCase(),
@@ -759,7 +867,7 @@ public class DataManager {
                         try {
                             writer.write(
                                     String.format(
-                                            "com.cs93.startpoint.actor.person.NPC = 0, 0, 0, %s, %s, %s, STAND, 0, %s",
+                                            classPackagePath + ".actor.person.NPC = 0, 0, 0, %s, %s, %s, STAND, 0, %s",
                                             assetName.toUpperCase(), //persondata
                                             assetName.toUpperCase(), //npcdata
                                             this.getMapName().toUpperCase(),
@@ -794,18 +902,18 @@ public class DataManager {
                     int index = assetName.indexOf("layer");
                     if (index > 0) { //with layer
                         char layer = assetName.charAt(index + 5);
-                        writer.write(String.format("com.cs93.startpoint.stageProps.foreground.ConfigurableForeground = 0, 0, 0, 0, 0, 0, %s, %s, RECTANGULAR, 182, 200, 0, STAND, %c, false, false, %c", assetName.toUpperCase(), this.getMapName().toUpperCase(), '0', layer));
+                        writer.write(String.format(classPackagePath + ".stageProps.foreground.ConfigurableForeground = 0, 0, 0, 0, 0, 0, %s, %s, RECTANGULAR, 182, 200, 0, STAND, %c, false, false, %c", assetName.toUpperCase(), this.getMapName().toUpperCase(), '0', layer));
                     } else {
-                        writer.write(String.format("com.cs93.startpoint.stageProps.foreground.ConfigurableForeground = 0, 0, 0, 0, 0, 0, %s, %s, RECTANGULAR, 182, 200, 0, STAND, %c, false, false, %c", assetName.toUpperCase(), this.getMapName().toUpperCase(), '0', '1'));
+                        writer.write(String.format(classPackagePath + ".stageProps.foreground.ConfigurableForeground = 0, 0, 0, 0, 0, 0, %s, %s, RECTANGULAR, 182, 200, 0, STAND, %c, false, false, %c", assetName.toUpperCase(), this.getMapName().toUpperCase(), '0', '1'));
                     }
                 } else {// background
                     //get layer
                     int index = assetName.indexOf("layer");
                     if (index > 0) { //with layer
                         char layer = assetName.charAt(index + 5);
-                        writer.write(String.format("com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, %s, %s, RECTANGULAR, 182, 200, 0, STAND, %c, false, false", assetName.toUpperCase(), this.getMapName().toUpperCase(), layer));
+                        writer.write(String.format(classPackagePath + ".stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, %s, %s, RECTANGULAR, 182, 200, 0, STAND, %c, false, false", assetName.toUpperCase(), this.getMapName().toUpperCase(), layer));
                     } else {
-                        writer.write(String.format("com.cs93.startpoint.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, %s, %s, RECTANGULAR, 182, 200, 0, STAND, %c, false, false", assetName.toUpperCase(), this.getMapName().toUpperCase(), '1'));
+                        writer.write(String.format(classPackagePath + ".stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, %s, %s, RECTANGULAR, 182, 200, 0, STAND, %c, false, false", assetName.toUpperCase(), this.getMapName().toUpperCase(), '1'));
                     }
                 }
                 writer.newLine();
@@ -1554,12 +1662,12 @@ public class DataManager {
         this.aboveGroundRows = aboveGroundRows;
     }
 
-    public String getGameResFolder() {
-        return gameResFolder;
+    public String getAndroidGameResFolder() {
+        return androidGameResFolder;
     }
 
-    public void setGameResFolder(String gameResFolder) {
-        this.gameResFolder = gameResFolder;
+    public void setAndroidGameResFolder(String androidGameResFolder) {
+        this.androidGameResFolder = androidGameResFolder;
     }
 
     public boolean isDeployData() {
@@ -1610,12 +1718,12 @@ public class DataManager {
         this.zoomRatio = zoomRatio;
     }
 
-    public String getGameImageAssetsFolder() {
-        return gameImageAssetsFolder;
+    public String getAndroidGameImageAssetsFolder() {
+        return androidGameImageAssetsFolder;
     }
 
-    public void setGameImageAssetsFolder(String gameImageAssetsFolder) {
-        this.gameImageAssetsFolder = gameImageAssetsFolder;
+    public void setAndroidGameImageAssetsFolder(String androidGameImageAssetsFolder) {
+        this.androidGameImageAssetsFolder = androidGameImageAssetsFolder;
     }
 
 
@@ -1633,5 +1741,21 @@ public class DataManager {
 
     public void setUpdatedImageNameList(List<String> updatedImageNameList) {
         this.updatedImageNameList = updatedImageNameList;
+    }
+
+    public String getPcGameResFolder() {
+        return pcGameResFolder;
+    }
+
+    public void setPcGameResFolder(String pcGameResFolder) {
+        this.pcGameResFolder = pcGameResFolder;
+    }
+
+    public String getPcGameImageAssetsFolder() {
+        return pcGameImageAssetsFolder;
+    }
+
+    public void setPcGameImageAssetsFolder(String pcGameImageAssetsFolder) {
+        this.pcGameImageAssetsFolder = pcGameImageAssetsFolder;
     }
 }

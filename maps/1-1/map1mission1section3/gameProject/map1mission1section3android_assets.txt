@@ -1,0 +1,285 @@
+com.cs93.moncouvernewhorizon.svgProps.Ladder = 0, 0, 0, 0.5, 105.0, LADDEROXOXO, MAP1MISSION1SECTION3, RECTANGULAR, 0.5, 105.0, 0
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 50, 50, 100, RECTANGULAR, 50, 50, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 100, 50, 100, RECTANGULAR, 100, 50, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 150, 50, 100, RECTANGULAR, 150, 50, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 200, 50, 100, RECTANGULAR, 200, 50, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 50, 100, 100, RECTANGULAR, 50, 100, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 100, 100, 100, RECTANGULAR, 100, 100, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 150, 100, 100, RECTANGULAR, 150, 100, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 200, 100, 100, RECTANGULAR, 200, 100, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 50, 150, 100, RECTANGULAR, 50, 150, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 100, 150, 100, RECTANGULAR, 100, 150, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 150, 150, 100, RECTANGULAR, 150, 150, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 200, 150, 100, RECTANGULAR, 200, 150, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 50, 200, 100, RECTANGULAR, 50, 200, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 100, 200, 100, RECTANGULAR, 100, 200, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 150, 200, 100, RECTANGULAR, 150, 200, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Land = 0, 0, 0, 200, 200, 100, RECTANGULAR, 200, 200, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.svgProps.Monkeybar = 0, 0, 0, 150.0, 150.0, 0, 0, MONKEYBAROXOXO, MAP1MISSION1SECTION3, false
+com.cs93.moncouvernewhorizon.actor.land.Platform = 0, 0, 0, 50, 50, 100, RECTANGULAR, 50, 50, 0, MAP1MISSION1SECTION3, PLFMOXOXO100OXOXO100, UPRIGHT
+com.cs93.moncouvernewhorizon.actor.land.Platform = 0, 0, 0, 100, 50, 100, RECTANGULAR, 100, 50, 0, MAP1MISSION1SECTION3, PLFMOXOXO100OXOXO200, UPRIGHT
+com.cs93.moncouvernewhorizon.actor.land.Platform = 0, 0, 0, 150, 50, 100, RECTANGULAR, 150, 50, 0, MAP1MISSION1SECTION3, PLFMOXOXO100OXOXO300, UPRIGHT
+com.cs93.moncouvernewhorizon.actor.land.Platform = 0, 0, 0, 200, 50, 100, RECTANGULAR, 200, 50, 0, MAP1MISSION1SECTION3, PLFMOXOXO100OXOXO400, UPRIGHT
+com.cs93.moncouvernewhorizon.actor.land.Slope = 0, 0, 0, 50, 50, 100, RECTANGULAR, 50, 50, 0, MAP1MISSION1SECTION3, EMPTY, UPRIGHT-LEFT, LEFT
+com.cs93.moncouvernewhorizon.actor.land.Slope = 0, 0, 0, 50, 50, 100, RECTANGULAR, 50, 50, 0, MAP1MISSION1SECTION3, EMPTY, UPRIGHT-RIGHT, RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Slope = 0, 0, 0, 100, 50, 100, RECTANGULAR, 100, 50, 0, MAP1MISSION1SECTION3, EMPTY, UPRIGHT-LEFT, LEFT
+com.cs93.moncouvernewhorizon.actor.land.Slope = 0, 0, 0, 100, 50, 100, RECTANGULAR, 100, 50, 0, MAP1MISSION1SECTION3, EMPTY, UPRIGHT-RIGHT, RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Slope = 0, 0, 0, 150, 50, 100, RECTANGULAR, 150, 50, 0, MAP1MISSION1SECTION3, EMPTY, UPRIGHT-LEFT, LEFT
+com.cs93.moncouvernewhorizon.actor.land.Slope = 0, 0, 0, 150, 50, 100, RECTANGULAR, 150, 50, 0, MAP1MISSION1SECTION3, EMPTY, UPRIGHT-RIGHT, RIGHT
+com.cs93.moncouvernewhorizon.actor.land.Slope = 0, 0, 0, 200, 50, 100, RECTANGULAR, 200, 50, 0, MAP1MISSION1SECTION3, EMPTY, UPRIGHT-LEFT, LEFT
+com.cs93.moncouvernewhorizon.actor.land.Slope = 0, 0, 0, 200, 50, 100, RECTANGULAR, 200, 50, 0, MAP1MISSION1SECTION3, EMPTY, UPRIGHT-RIGHT, RIGHT
+com.cs93.moncouvernewhorizon.svgProps.StairSensorDownWard = 0, 0, 0, 50.0, 50.0, RECTANGULAR, 50.0, 50.0, 0, MAP1MISSION1SECTION3, EMPTY, LEFT
+com.cs93.moncouvernewhorizon.svgProps.StairSensorDownWard = 0, 0, 0, 50.0, 50.0, RECTANGULAR, 50.0, 50.0, 0, MAP1MISSION1SECTION3, EMPTY, RIGHT
+com.cs93.moncouvernewhorizon.svgProps.UnfollowArea = 0, 0, 0, 200.0, 200.0, MAP1MISSION1SECTION3, RECTANGULAR, 200.0, 200.0, 0
+com.cs93.moncouvernewhorizon.svgProps.WallHang = 0, 0, 0, 1.0, 100.0, WALLHANGLEFTOXOXO200OXOXO200, MAP1MISSION1SECTION3, RECTANGULAR, 1.0, 100.0, 0
+com.cs93.moncouvernewhorizon.svgProps.WallHang = 0, 0, 0, 1.0, 100.0, WALLHANGRIGHTOXOXO200OXOXO200, MAP1MISSION1SECTION3, RECTANGULAR, 1.0, 100.0, 0
+com.cs93.moncouvernewhorizon.svgProps.WallSlide = 0, 0, 0, 1.0, 100.0, WALLSLIDELEFTOXOXO200OXOXO200, MAP1MISSION1SECTION3, RECTANGULAR, 1.0, 100.0, 0
+com.cs93.moncouvernewhorizon.svgProps.WallSlide = 0, 0, 0, 1.0, 100.0, WALLSLIDERIGHTOXOXO200OXOXO200, MAP1MISSION1SECTION3, RECTANGULAR, 1.0, 100.0, 0
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-01, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-02, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-03, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-04, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-05, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-102, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-103, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-113, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-114, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-115, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-116, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-117, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-118, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-125, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-126, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-127, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-128, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-129, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-130, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-131, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-132, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-133, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-140, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-141, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-142, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-143, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-155, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-156, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-16, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-17, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-170, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-171, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-173, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-174, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-175, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-18, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-181, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-182, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-183, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-184, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-185, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-186, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-187, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-188, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-189, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-19, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-190, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-191, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-192, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-193, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-194, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-195, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-196, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-197, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-198, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-199, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-20, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-200, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-201, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-202, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-203, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-204, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-205, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-206, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-207, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-208, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-209, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-21, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-210, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-211, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-212, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-213, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-214, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-215, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-22, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-222, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-223, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-224, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-23, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-24, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-25, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-26, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-31, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-32, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-33, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-34, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-35, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-36, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-37, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-38, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-39, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-40, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-41, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-46, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-47, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-48, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-49, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-50, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-55, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-56, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-70, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-71, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-72, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-73, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-85, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-86, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-87, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+com.cs93.moncouvernewhorizon.stageProps.background.ConfigurableBackground = 0, 0, 0, 0, 0, 0, MAP1MISSION1SECTION3-LAYER2-88, MAP1MISSION1SECTION3, RECTANGULAR, 182, 200, 0, STAND, 2, false, false
+
+
+
+
+
+
+
+
+
+
+
+com.cs93.moncouvernewhorizon.actor.land.ShiftLand = 0, 0, 0, 0, 0, 100, RECTANGULAR, 0, 0, 0, EMPTY, MAP1MISSION1SECTION3, UPRIGHT-DOWNRIGHT-LEFT-RIGHT
+com.cs93.moncouvernewhorizon.svgProps.MapDoor = 0, 0, 0, 350.0, 350.0, DOOR-MAP1MISSION1SECTION3-MAP1MISSION1SECTION2, MAP1MISSION1SECTION3, RECTANGULAR, 350.0, 350.0, 0
+com.cs93.moncouvernewhorizon.svgProps.MapDoor = 0, 0, 0, 350.0, 350.0, DOOR-MAP1MISSION1SECTION3-MAP1MISSION1SECTION4, MAP1MISSION1SECTION3, RECTANGULAR, 350.0, 350.0, 0
+com.cs93.moncouvernewhorizon.actor.person.NPC = 0, 0, 0, NPCMODELWALK1, NPCMODELWALK1, MAP1MISSION1SECTION3, STAND, 0, NPCMODELWALK1
+com.cs93.moncouvernewhorizon.actor.person.NPC = 0, 0, 0, NPCMODELWALK9, NPCMODELWALK9, MAP1MISSION1SECTION3, STAND, 0, NPCMODELWALK9
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelCrawl5 = 0, 0, 0, ENEMYMODELCRAWL5, ENEMYMODELCRAWL5, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelCrawl6 = 0, 0, 0, ENEMYMODELCRAWL6, ENEMYMODELCRAWL6, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelCrawl7 = 0, 0, 0, ENEMYMODELCRAWL7, ENEMYMODELCRAWL7, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelFly2A = 0, 0, 0, ENEMYMODELFLY2A, ENEMYMODELFLY2A, MAP1MISSION1SECTION3, HOVER
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelFly5B = 0, 0, 0, ENEMYMODELFLY5B, ENEMYMODELFLY5B, MAP1MISSION1SECTION3, HOVER
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelFly9 = 0, 0, 0, ENEMYMODELFLY9, ENEMYMODELFLY9, MAP1MISSION1SECTION3, HOVER
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelFly9A = 0, 0, 0, ENEMYMODELFLY9A, ENEMYMODELFLY9A, MAP1MISSION1SECTION3, HOVER
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelFly9C = 0, 0, 0, ENEMYMODELFLY9C, ENEMYMODELFLY9C, MAP1MISSION1SECTION3, HOVER
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelWalk10 = 0, 0, 0, ENEMYMODELWALK10, ENEMYMODELWALK10, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelWalk14Gatlin = 0, 0, 0, ENEMYMODELWALK14GATLIN, ENEMYMODELWALK14GATLIN, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelWalk14Rifle = 0, 0, 0, ENEMYMODELWALK14RIFLE, ENEMYMODELWALK14RIFLE, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelWalk14Shield = 0, 0, 0, ENEMYMODELWALK14SHIELD, ENEMYMODELWALK14SHIELD, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelWalk2 = 0, 0, 0, ENEMYMODELWALK2, ENEMYMODELWALK2, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelWalk3A = 0, 0, 0, ENEMYMODELWALK3A, ENEMYMODELWALK3A, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelWalk3C = 0, 0, 0, ENEMYMODELWALK3C, ENEMYMODELWALK3C, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelWheel1A = 0, 0, 0, ENEMYMODELWHEEL1A, ENEMYMODELWHEEL1A, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.actor.person.EnemyModelWheel3 = 0, 0, 0, ENEMYMODELWHEEL3, ENEMYMODELWHEEL3, MAP1MISSION1SECTION3, STAND
+com.cs93.moncouvernewhorizon.stageProps.FightTrigger

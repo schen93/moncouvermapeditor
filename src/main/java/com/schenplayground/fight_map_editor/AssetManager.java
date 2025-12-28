@@ -6,28 +6,21 @@
 package com.schenplayground.fight_map_editor;
 
 import javafx.embed.swing.SwingFXUtils;
-import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.SnapshotParameters;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.PixelReader;
-import javafx.scene.input.MouseButton;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
 
 import javax.imageio.ImageIO;
-import javax.swing.text.View;
-import java.awt.image.BufferedImage;
-import java.awt.image.PixelGrabber;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
@@ -347,13 +340,42 @@ public class AssetManager {
 
     //FIXME add resize feature
     public void deployAssets() {
-        Path path = Paths.get(DataManager.getInstance().getGameImageAssetsFolder());
         String format = "png";
+        //to android
+        Path androidPath = Paths.get(DataManager.getInstance().getAndroidGameImageAssetsFolder());
         //for(Map.Entry<Integer, Image> entry : this.getOriginalAssetList().entrySet()) {
         for(int i=0; i<this.getOriginalAssetList().size(); i++) {
             if(DataManager.getInstance().getUpdatedImageNameList().contains(this.getAssetNameList().get(i))) {
                 //copy assets to game\imgs folder, and append "_stand_right_0" to name
-                File imageAssetFile = new File(path + File.separator + this.getAssetNameList().get(i) + "_stand_right_0.png");
+                File imageAssetFile = new File(androidPath + File.separator + this.getAssetNameList().get(i) + "_stand_right_0.png");
+                try {
+                    // exclude enemy character asset
+                    // exclude door asset
+                    if (this.getAssetNameList().get(i).indexOf("enemymodel") == -1 && this.getAssetNameList().get(i).indexOf("door") == -1) {
+
+                        SnapshotParameters param = new SnapshotParameters();
+                        param.setFill(Color.TRANSPARENT);
+
+                        ImageView imageView = new ImageView(this.getOriginalAssetList().get(i));
+                        imageView.setFitWidth(DataManager.getInstance().getZoomRatio() * this.getOriginalAssetList().get(i).getWidth());
+                        imageView.setFitHeight(DataManager.getInstance().getZoomRatio() * this.getOriginalAssetList().get(i).getHeight());
+                        imageView.setPreserveRatio(true);
+
+                        ImageIO.write(SwingFXUtils.fromFXImage(imageView.snapshot(param, null), null), format, imageAssetFile);
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+
+        Path pcPath = Paths.get(DataManager.getInstance().getAndroidGameImageAssetsFolder());
+        //for(Map.Entry<Integer, Image> entry : this.getOriginalAssetList().entrySet()) {
+        for(int i=0; i<this.getOriginalAssetList().size(); i++) {
+            if(DataManager.getInstance().getUpdatedImageNameList().contains(this.getAssetNameList().get(i))) {
+                //copy assets to game\imgs folder, and append "_stand_right_0" to name
+                File imageAssetFile = new File(pcPath + File.separator + this.getAssetNameList().get(i) + "_stand_right_0.png");
                 try {
                     // exclude enemy character asset
                     // exclude door asset

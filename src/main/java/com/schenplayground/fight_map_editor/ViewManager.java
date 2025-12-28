@@ -25,7 +25,6 @@ import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.Objects;
 import java.util.Optional;
 
@@ -196,14 +195,22 @@ public class ViewManager {
                 aboveGroundRows.setText(String.valueOf(DataManager.getInstance().getAboveGroundRows()));
                 CheckBox deployData = new CheckBox();
                 CheckBox deployImage = new CheckBox();
-                //C:\game\StartPoint\app\src\main\res
-                TextField gameResPath = new TextField();
-                gameResPath.setText("C:\\game\\StartPoint\\app\\src\\main\\res");
-                gameResPath.setPromptText("game res folder");
-                //C:\game\StartPoint\install_time_asset_pack\src\main\assets\image\stage
-                TextField gameImageAssetPath = new TextField();
-                gameImageAssetPath.setText("C:\\game\\StartPoint\\install_time_asset_pack\\src\\main\\assets\\image\\stage");
-                gameImageAssetPath.setPromptText("game image assets folder");
+                TextField androidGameResPath = new TextField();
+                //C:\game\Android\moncouvernewhorizon\app\src\main\res\raw
+                androidGameResPath.setText("C:\\game\\Android\\moncouvernewhorizon\\app\\src\\main\\res\\raw");
+                androidGameResPath.setPromptText("game res folder");
+                TextField androidGameImageAssetPath = new TextField();
+                //C:\game\Android\moncouvernewhorizon\install_time_asset_pack\src\main\assets\image\stage
+                androidGameImageAssetPath.setText("C:\\game\\Android\\moncouvernewhorizon\\install_time_asset_pack\\src\\main\\assets\\image\\stage");
+                androidGameImageAssetPath.setPromptText("game image assets folder");
+                TextField pcGameResPath = new TextField();
+                //C:\game\PC\moncouvernewhorizon\src\main\resources\com\schenplayground\moncouvernewhorizon\assets\file
+                pcGameResPath.setText("C:\\game\\PC\\moncouvernewhorizon\\src\\main\\resources\\com\\schenplayground\\moncouvernewhorizon\\assets\\file");
+                pcGameResPath.setPromptText("game res folder");
+                TextField pcGameImageAssetPath = new TextField();
+                //C:\game\PC\moncouvernewhorizon\src\main\resources\com\schenplayground\moncouvernewhorizon\assets\image\stage
+                pcGameImageAssetPath.setText("C:\\game\\PC\\moncouvernewhorizon\\src\\main\\resources\\com\\schenplayground\\moncouvernewhorizon\\assets\\image\\stage");
+                pcGameImageAssetPath.setPromptText("game image assets folder");
                 TextField zoomRatio = new TextField();
 
                 gridPane.add(new Label("above ground rows:"), 0, 0);
@@ -212,20 +219,21 @@ public class ViewManager {
                 gridPane.add(deployData, 1, 1);
                 gridPane.add(new Label("deploy image:"), 0, 2);
                 gridPane.add(deployImage, 1, 2);
-                gridPane.add(new Label("game res folder:"), 0, 3);
-                gridPane.add(gameResPath, 1, 3);
-                gridPane.add(new Label("game image assets folder:"), 0, 4);
-                gridPane.add(gameImageAssetPath, 1, 4);
-                gridPane.add(new Label("zoom ratio (base/fhd):"), 0, 5);
-                gridPane.add(zoomRatio, 1, 5);
+                gridPane.add(new Label("Android game res folder:"), 0, 3);
+                gridPane.add(androidGameResPath, 1, 3);
+                gridPane.add(new Label("Android game image assets folder:"), 0, 4);
+                gridPane.add(androidGameImageAssetPath, 1, 4);
+                gridPane.add(new Label("PC game res folder:"), 0, 5);
+                gridPane.add(pcGameResPath, 1, 5);
+                gridPane.add(new Label("PC game image assets folder:"), 0, 6);
+                gridPane.add(pcGameImageAssetPath, 1, 6);
+                gridPane.add(new Label("zoom ratio (base/fhd):"), 0, 7);
+                gridPane.add(zoomRatio, 1, 7);
 
                 dialog.getDialogPane().setContent(gridPane);
 
                 Optional result = dialog.showAndWait();
                 if (result.isPresent() && !aboveGroundRows.getText().isEmpty()) {
-                    System.out.println("aboveGroundRow: " + aboveGroundRows.getText());
-                    System.out.println("gameResFolder: " + gameResPath.getText());
-                    System.out.println("gameImageAssetPath: " + gameImageAssetPath.getText());
                     try {
                         DataManager.getInstance().setAboveGroundRows(Integer.parseInt(aboveGroundRows.getText()));
                     } catch(NumberFormatException nfe) {
@@ -234,8 +242,10 @@ public class ViewManager {
                     }
                     DataManager.getInstance().setDeployData(deployData.isSelected());
                     DataManager.getInstance().setDeployImage(deployImage.isSelected());
-                    DataManager.getInstance().setGameResFolder(gameResPath.getText());
-                    DataManager.getInstance().setGameImageAssetsFolder(gameImageAssetPath.getText());
+                    DataManager.getInstance().setAndroidGameResFolder(androidGameResPath.getText());
+                    DataManager.getInstance().setAndroidGameImageAssetsFolder(androidGameImageAssetPath.getText());
+                    DataManager.getInstance().setPcGameResFolder(pcGameResPath.getText());
+                    DataManager.getInstance().setPcGameImageAssetsFolder(pcGameImageAssetPath.getText());
                     DataManager.getInstance().setZoomRatio(Float.parseFloat(zoomRatio.getText()));
                     DataManager.getInstance().exportMap(primaryStage);
 

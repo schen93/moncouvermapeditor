@@ -167,4 +167,3 @@ enemymodelwheel1a
 enemymodelwheel3
 fighttrigger
 enemymodelwalk10
-enemymodelcrawl6
